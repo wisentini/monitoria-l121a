@@ -34,11 +34,12 @@ Os horários das aulas de Laboratório de Programação I descritos abaixo valem
 
 Este espaço será dedicado à publicação de recados, tutoriais, dicas, resoluções de exercícios e dúvidas, desafios e todas as outras ideias que hão de surgir ao longo do semestre.
 
-| ID  | Título                                    | Tipo    | Data               |
-| :-: | :---------------------------------------- | :------ | :----------------- |
-| 1   | [Boas-vindas!][post-1]                    | Recado  | 15 de Maio de 2021 |
-| 2   | [Segundos, minutos e horas][post-2]       | Desafio | 21 de Maio de 2021 |
-| 3   | [Solução do desafio 1][post-3]            | Solução | 7 de Junho de 2021 |
+| ID  | Título                                    | Tipo    | Data                |
+| :-: | :---------------------------------------- | :------ | :------------------ |
+| 1   | [Boas-vindas!][post-1]                    | Recado  | 15 de Maio de 2021  |
+| 2   | [Segundos, minutos e horas][post-2]       | Desafio | 21 de Maio de 2021  |
+| 3   | [Solução do desafio 1][post-3]            | Solução | 7 de Junho de 2021  |
+| 4   | [Números primos][post-4]                  | Desafio | 22 de Junho de 2021 |
 
 ## Materiais auxiliares :books:
 
@@ -73,6 +74,7 @@ Assistiu à aula e ainda assim ficou com alguma dúvida em relação ao conteúd
 [post-1]:                 posts/post-1-boas-vindas.md                                                     "Boas-vindas!"
 [post-2]:                 posts/post-2-segundos-minutos-horas.md                                          "Segundos, minutos e horas"
 [post-3]:                 posts/post-3-solucao-desafio-1.md                                               "Solução do desafio 1"
+[post-4]:                 posts/post-4-numeros-primos.md                                                  "Números primos"
 [material-1-conteudo]:    https://youtube.com/playlist?list=PL8iN9FQ7_jt4DJbeQqv--jpTy-2gTA3Cp            "Linguagem C Descomplicada"
 [material-1-autor]:       http://www.facom.ufu.br/~backes/                                                "André Backes"
 [material-2-conteudo]:    https://www.ime.usp.br/~pf/algoritmos/                                          "Projeto de Algorítmos (em C)"
