@@ -39,6 +39,8 @@ int main(void)
 
 Fique à vontade para modificar o nome das variáveis/funções, mas tente manter a estrutura original do programa.
 
+[Ver solução do desafio][solucao]
+
 ## Observação :warning:
 
 A resolução desse desafio (assim como de todos os outros que hão de surgir) não é obrigatória, não vale presença nem nota. Ainda assim, é fortemente recomendado que você ao menos tente resolvê-lo, a fim de descobrir e sanar suas dúvidas, além de aprimorar suas habilidades em programação.
@@ -47,6 +49,7 @@ Por favor, se você tiver qualquer dúvida, entre em contato comigo pelo [Discor
 
 [Voltar para a página inicial][pagina-inicial]
 
+[solucao]:           post-5-solucao-desafio-2.md   "Solução do desafio 2"
 [discord-monitoria]: https://discord.gg/kSBnGsRvnB "Servidor da monitoria da disciplina no Discord"
 [email-monitor]:     mailto:mvisentini@inf.ufsm.br "E-mail do monitor"
 [pagina-inicial]:    ../README.md                  "Voltar para a página inicial"
