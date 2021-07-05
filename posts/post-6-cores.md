@@ -78,7 +78,7 @@ int main(void)
 }
 ```
 
-Execute esse código no Online GDB para ver o resultado: [https://onlinegdb.com/auXECn2Ue][codigo-gdb].
+Execute esse código no Online GDB para ver o resultado: [https://onlinegdb.com/mpTgZhH0t][codigo-gdb].
 
 Ficou com alguma dúvida? Entre em contato comigo pelo [Discord][discord-monitoria] ou pelo e-mail [mvisentini@inf.ufsm.br][email-monitor].
 
@@ -87,7 +87,7 @@ Ficou com alguma dúvida? Entre em contato comigo pelo [Discord][discord-monitor
 <!-- Links -->
 
 [t2]:                https://github.com/BenhurUFSM/l121a/blob/main/Assuntos/11.md#trabalho-2 "Trabalho 2"
-[codigo-gdb]:        https://onlinegdb.com/auXECn2Ue                                         "Código no Online GDB"
+[codigo-gdb]:        https://onlinegdb.com/mpTgZhH0t                                         "Código no Online GDB"
 [discord-monitoria]: https://discord.gg/kSBnGsRvnB                                           "Servidor da monitoria da disciplina no Discord"
 [email-monitor]:     mailto:mvisentini@inf.ufsm.br                                           "E-mail do monitor"
 [pagina-inicial]:    ../README.md                                                            "Voltar para a página inicial"
