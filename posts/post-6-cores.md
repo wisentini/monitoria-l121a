@@ -70,6 +70,11 @@ int main(void)
     // podemos voltar à nossa cor original, então,
     // é chamada a função `cor_normal()`
     cor_normal();
+    
+    // Agora, a mensagem será impressa
+    // sem nenhuma formatação de cor, como
+    // no início
+    printf("%s", mensagem);
 }
 ```
 
