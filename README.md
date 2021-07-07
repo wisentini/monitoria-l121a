@@ -4,14 +4,14 @@
 
 ## Índice :bookmark_tabs:
 
-- [Informações](#informações) :pushpin:
+- [Informações](#informações-:pushpin:) :pushpin:
 - [Horários](#horários) :alarm_clock:
     - [Aula](#aula) :technologist:
     - [Monitoria](#monitoria) :bulb:
 - [Publicações](#publicações) :thought_balloon:
 - [Materiais auxiliares](#materiais-auxiliares) :books:
 
-## Informações
+## Informações :pushpin:
 
 Algumas informações pertinentes a respeito da disciplina e do semestre letivo:
 
@@ -29,10 +29,10 @@ Algumas informações pertinentes a respeito da disciplina e do semestre letivo:
 
 Os horários das aulas de Laboratório de Programação I descritos abaixo valem para ambas as turmas de número II dos cursos de Ciência da Computação e Sistemas de Informação:
 
-| Dia da semana | Início   | Fim     | Tipo      |
-| ------------- | :------: | :-----: | :-------: |
-| Terça-feira   | 14:30    | 16:30   | Prática   |
-| Quinta-feira  | 14:30    | 16:30   | Prática   |
+| Dia da semana | Início   | Fim     | Tipo    |
+| ------------- | :------: | :-----: | ------- |
+| Terça-feira   | 14:30    | 16:30   | Prática |
+| Quinta-feira  | 14:30    | 16:30   | Prática |
 
 ### Monitoria :bulb:
 
