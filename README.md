@@ -2,16 +2,16 @@
 
 ![banner-monitoria-l121a][banner-monitoria-l121a]
 
-## Índice :bookmark_tabs:
+## Índice
 
-- [Informações](#informações-:pushpin:) :pushpin:
+- [Informações](#informações) :pushpin:
 - [Horários](#horários) :alarm_clock:
     - [Aula](#aula) :technologist:
     - [Monitoria](#monitoria) :bulb:
 - [Publicações](#publicações) :thought_balloon:
 - [Materiais auxiliares](#materiais-auxiliares) :books:
 
-## Informações :pushpin:
+## Informações
 
 Algumas informações pertinentes a respeito da disciplina e do semestre letivo:
 
@@ -23,9 +23,9 @@ Algumas informações pertinentes a respeito da disciplina e do semestre letivo:
 - **Plataformas** (monitoria): [Discord][discord-monitoria] e [Página][pagina-monitoria]
 - **Calendário Acadêmico**: [UFSM 2021/1][calendario-academico] (REDE)
 
-## Horários :alarm_clock:
+## Horário
 
-### Aula :technologist:
+### Aula
 
 Os horários das aulas de Laboratório de Programação I descritos abaixo valem para ambas as turmas de número II dos cursos de Ciência da Computação e Sistemas de Informação:
 
@@ -34,7 +34,7 @@ Os horários das aulas de Laboratório de Programação I descritos abaixo valem
 | Terça-feira   | 14:30    | 16:30   | Prática |
 | Quinta-feira  | 14:30    | 16:30   | Prática |
 
-### Monitoria :bulb:
+### Monitoria
 
 A seguir estão os horários em que eu estou disponível para a monitoria. Você também pode entrar em contato comigo fora desses horários, mas talvez eu não consiga atender de imediato. Para marcar um horário, entre em contato comigo através das plataformas descritas na seção "[Informações](#informações)" acima.
 
@@ -47,7 +47,7 @@ A seguir estão os horários em que eu estou disponível para a monitoria. Você
 | Sexta-feira   | 13:00    | 14:30   | 18:00    | 19:00   |
 | Sábado        | 7:30     | 10:00   |          |         |
 
-## Publicações :thought_balloon:
+## Publicações
 
 Este espaço será dedicado à publicação de recados, tutoriais, dicas, resoluções de exercícios e dúvidas, desafios e todas as outras ideias que hão de surgir ao longo do semestre.
 
@@ -60,7 +60,7 @@ Este espaço será dedicado à publicação de recados, tutoriais, dicas, resolu
 | 5   | [Solução do desafio 2][post-5]            | Solução | 28 de Junho de 2021 |
 | 6   | [Cores][post-6]                           | Dica    | 5 de Julho de 2021  |
 
-## Materiais auxiliares :books:
+## Materiais auxiliares
 
 Assistiu à aula e ainda assim ficou com alguma dúvida em relação ao conteúdo visto nela? Não desanime, isso acontece com todo mundo. Para tentar minizar isso, eu preparei uma lista com alguns materiais (sites, vídeos, etc) que me ajudaram durante a minha passagem pela disciplina. Caso você tenha seus próprios materiais e queira compartilhar com o resto da turma, mande-os para mim e eu os adicionarei a essa lista.
 
