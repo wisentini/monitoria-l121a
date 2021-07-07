@@ -4,12 +4,12 @@
 
 ## Índice
 
-- [Informações](#informações) :pushpin:
-- [Horários](#horários) :alarm_clock:
-    - [Aula](#aula) :technologist:
-    - [Monitoria](#monitoria) :bulb:
-- [Publicações](#publicações) :thought_balloon:
-- [Materiais auxiliares](#materiais-auxiliares) :books:
+- [Informações](#informações)
+- [Horários](#horários)
+    - [Aula](#aula)
+    - [Monitoria](#monitoria)
+- [Publicações](#publicações)
+- [Materiais auxiliares](#materiais-auxiliares)
 
 ## Informações
 
@@ -23,7 +23,7 @@ Algumas informações pertinentes a respeito da disciplina e do semestre letivo:
 - **Plataformas** (monitoria): [Discord][discord-monitoria] e [Página][pagina-monitoria]
 - **Calendário Acadêmico**: [UFSM 2021/1][calendario-academico] (REDE)
 
-## Horário
+## Horários
 
 ### Aula
 
