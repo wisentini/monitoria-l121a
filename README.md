@@ -6,6 +6,8 @@
 
 - [Informações](#informações) :pushpin:
 - [Horários](#horários) :alarm_clock:
+    - [Aula](#aula) :technologist:
+    - [Monitoria](#monitoria) :bulb:
 - [Publicações](#publicações) :thought_balloon:
 - [Materiais auxiliares](#materiais-auxiliares) :books:
 
@@ -23,12 +25,27 @@ Algumas informações pertinentes a respeito da disciplina e do semestre letivo:
 
 ## Horários :alarm_clock:
 
+### Aula :technologist:
+
 Os horários das aulas de Laboratório de Programação I descritos abaixo valem para ambas as turmas de número II dos cursos de Ciência da Computação e Sistemas de Informação:
 
 | Dia da semana | Início | Fim   | Tipo    |
 | ------------- | ------ | ----- | ------- |
 | Terça-feira   | 14:30  | 16:30 | Prática |
 | Quinta-feira  | 14:30  | 16:30 | Prática |
+
+### Monitoria :bulb:
+
+A seguir estão os horários em que eu estou disponível para a monitoria. Você também pode entrar em contato comigo fora desses horários, mas talvez eu não consiga atender de imediato. Para marcar um horário, entre em contato comigo através das plataformas descritas na seção "[Informações](#informações)" acima.
+
+| Dia da semana | Início | Fim   | Início | Fim   |
+| ------------- | ------ | ----- | ------ | ----- |
+| Segunda-feira | 13:00  | 15:00 | 18:00  | 20:00 |
+| Terça-feira   | 13:00  | 15:00 | 18:00  | 20:00 |
+| Quarta-feira  | 13:00  | 15:00 | 18:00  | 20:00 |
+| Quinta-feira  | 13:00  | 15:00 | 18:00  | 20:00 |
+| Sexta-feira   | 13:00  | 14:30 | 18:00  | 19:00 |
+| Sábado        | 7:30   | 10:00 |        |       |
 
 ## Publicações :thought_balloon:
 
