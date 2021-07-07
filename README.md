@@ -4,7 +4,7 @@
 
 ## Índice :bookmark_tabs:
 
-- [Informações](#informações) :pushpin:
+- [Informações](#informacoes) :pushpin:
 - [Horários](#horários) :alarm_clock:
     - [Aula](#aula) :technologist:
     - [Monitoria](#monitoria) :bulb:
