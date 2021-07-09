@@ -59,6 +59,7 @@ Este espaço será dedicado à publicação de recados, tutoriais, dicas, resolu
 | 4   | [Números primos][post-4]                  | Desafio | 22 de Junho de 2021 |
 | 5   | [Solução do desafio 2][post-5]            | Solução | 28 de Junho de 2021 |
 | 6   | [Cores][post-6]                           | Dica    | 5 de Julho de 2021  |
+| 7   | [Convenções][post-7]                      | Dica    | 8 de Julho de 2021  |
 
 ## Materiais auxiliares
 
@@ -96,6 +97,7 @@ Assistiu à aula e ainda assim ficou com alguma dúvida em relação ao conteúd
 [post-4]:                 posts/post-4-numeros-primos.md                                                  "Números primos"
 [post-5]:                 posts/post-5-solucao-desafio-2.md                                               "Solução do desafio 2"
 [post-6]:                 posts/post-6-cores.md                                                           "Cores"
+[post-7]:                 posts/post-7-convencoes.md                                                      "Convenções"
 [material-1-conteudo]:    https://youtube.com/playlist?list=PL8iN9FQ7_jt4DJbeQqv--jpTy-2gTA3Cp            "Linguagem C Descomplicada"
 [material-1-autor]:       http://www.facom.ufu.br/~backes/                                                "André Backes"
 [material-2-conteudo]:    https://www.ime.usp.br/~pf/algoritmos/                                          "Projeto de Algorítmos (em C)"
