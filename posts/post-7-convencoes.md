@@ -1,18 +1,28 @@
 # Convenções na linguagem C
 
-Aqui estão algumas dicas de como escrever um código minimamente legível em C. Eu sei que parece perda de tempo, mas um código mal escrito pode custar um tempo precioso na hora de sua análise. É claro que você não precisa seguir o que está descrito aqui a risca, afinal, são apenas dicas; no entanto, tente se basear nelas.
-
-## Recomendação
-
-Recomendo fortemente tirar 30 minutos do seu dia para ler isso: [C Coding Standard][ccs].
+A sintaxe C é escrever código de uma forma que permita a sua compilação. Convenções são coisas que não afetam a compilação do código, mas são geralmente aceitas como parte da escrita de um bom código C, e são coisas que você deve aderir para garantir que está escrevendo um código bom e legível.
 
 ## Funções
 
 Tente limitar o número de linhas das suas funções entre 20 e 25, no máximo. Se ultrapassar muito além disso, é certo que ela pode ser dividida em duas ou mais funções. Lembre-se, uma função deve resolver um problema específico.
 
-## Nomes
+## Nomeação
 
-Procure nomear variáveis e funções de modo que seja possível identificar o que elas representam/fazem apenas pela leitura do seu nome.
+### Convenções
+
+Existem certas convenções para a forma como nomeamos as coisas em C:
+
+#### Funções e variáveis
+
+Estes devem ser `snake_case`, uma convenção onde os espaços são substituídos por `_`. Por exemplo, `salario_mensal`.
+
+#### Constantes
+
+Estes também devem ser da forma `SNAKE_CASE`, porém com a diferença de que todas as letras são maiúsculas. Por exemplo, `NUMERO_DE_ALUNOS`.
+
+### Nomes descritivos
+
+O nome de uma variável deve descrever o valor que ela armazena e o que ela representa. Da mesma forma, o nome de uma função deve descrever a tarefa da função. Em geral, nomes de variáveis devem ser substantivos, e nomes de funções devem ser verbos. Abreviações não devem ser usadas a menos que sejam abreviações geralmente aceitas ou muito óbvias, como `num` para número.
 
 ❌
 ```c
@@ -33,13 +43,16 @@ int main(void)
     double salario = 1254.78;
     double porcentagem_aumento = 13/100;
     double novo_salario = calcula_novo_salario(salario, porcentagem_aumento);
+    
     printf("%lf", novo_salario);
 }
 ```
 
 ## Indentação
 
-Opte sempre por indentar seu código com 4 espaços, para facilitar a legibilidade.
+A indentação é uma forma importante de ajudar a distinguir blocos de código. Você deve indentar seu programa um <kbd>tab</kbd> além toda vez que abrir um `{` e indentar um <kbd>tab</kbd> a menos toda vez que fechar um `}`.
+
+> Um <kbd>tab</kbd> geralmente deve ter 4 espaços. Esse tamanho pode ser configurado no seu editor de preferência.
 
 ❌
 ```c
@@ -47,7 +60,8 @@ double divide(double a, double b)
 {
 if (b!=0){
 return NAN;
-}else{
+}
+else{
 return a/b;
 }
 }
@@ -65,39 +79,41 @@ double divide(double a, double b)
 }
 ```
 
+A indentação torna o código mais fácil de ler. Ela ajuda o leitor a ver qual código está aninhado e onde, e também onde estruturas como declarações `if` e loops começam e terminam.
+
 ## Espaçamento
 
-### Operandos/operadores e estruturas
+Pode parecer trivial, mas manter um bom espaçamento ao longo do seu programa ajuda a que seu código seja mais legível para os olhos humanos. A maioria dos programadores segue as convenções de espaçamento abaixo para seus programas:
 
-Coloque sempre espaços entre operandos/operadores e estruturas da linguagem (com exceção de chamadas de funções, em que o nome da função deve estar junto ao `{`) .
+| Código                     | Bom                             | Ruim                        |
+| -------------------------: | ------------------------------- | --------------------------- |
+| Cabeçalho de função        | `int funcao(int a, char *b)`   | `int funcao (int a,char *b){` |
+| Chamada de função          | `teste(107, 3, "string");`      | `teste(107,3,"string");`    |
+| Loop `for`                 | `for (int i = 0; i < 5; i++) {` | `for(int i=0;i<5;i++){`     |
+| Loop `while`               | `while (condicao) {`            | `while(condicao){`          |
+| Inicialização de variáveis | `int x = -5 * j + y % 2;`       | `int x=-5*j+y%2;`          |   
 
-❌
+Observe o espaçamento nas expressões. Geralmente, deve-se sempre deixar um espaço de cada lado de um operador (+, -, =, etc.). As únicas exceções são ++, --, e usar - para expressar números negativos (isto é, -5).
+
+### Espaçamento entre funções
+
+Semelhante ao espaçamento dentro de linhas de código, queremos garantir que tenhamos espaçamento na estrutura de nosso código para manter nosso código com aspecto legível. Você deve sempre incluir uma linha em branco entre funções para garantir a legibilidade de seu código.
+
 ```c
-void inicializa_matriz(int n_lin,int n_col,int mat[n_lin][n_col])
+int soma(int a, int b)
 {
-    for(int i=0;i<n_lin;i++){
-        for(int j=0;j<n_col;j++){
-            mat[i][j]=0;
-        }
-    }
+
+}
+
+int subtrai(int a, int b)
+{
+
 }
 ```
 
-✔️
-```c
-void inicializa_matriz(int n_lin, int n_col, int mat[n_lin][n_col])
-{
-    for (int i = 0; i < n_lin; i++) {
-        for (int j = 0; j < n_col; j++) {
-            mat[i][j] = 0;
-        }
-    }
-}
-```
+### Espaçamento entre linhas
 
-### Linhas
-
-Procure separar com espaço os blocos de código que são do mesmo "contexto". No exemplo abaixo, qual código fica mais fácil de ser lido?! Observe que no exemplo corrigido, as linhas são organizadas de acordo com um padrão.
+Procure separar com espaço os blocos de código que são do mesmo "contexto". No exemplo abaixo, qual código fica mais fácil de ser lido?!
 
 ❌
 ```c
@@ -133,21 +149,23 @@ int main(void)
 }
 ```
 
-## "{}"
+## Chaves
 
-Com exceção da declaração de funções, sempre use o `{` ao lado da estrutura em questão e não na linha abaixo dela.
+Com exceção da declaração de funções, um `{` deve ser colocado no final da linha que o abriu; já um `}` deve ser colocado em uma linha sozinha no mesmo nível de indentação que a linha com o `{`, somente se esse `}` terminar uma declaração ou terminar o corpo de uma função. Por exemplo, não há quebra de linha após o `}` se este for seguido por `else`.
 
 ❌
 ```c
-void inicializa_matriz(int n_lin,int n_col,int mat[n_lin][n_col])
-{
+void inicializa_matriz_com_val(int n_lin,int n_col,int mat[n_lin][n_col],int val){
     for(int i=0;i<n_lin;i++)
     {
         for(int j=0;j<n_col;j++)
         {
-            if (mat[i][j]!=0)
+            if (mat[i][j]!=val)
             {
-                mat[i][j]=0;
+                mat[i][j]=val;
+            }
+            else {
+                printf("\nA posição <%d, %d> da matriz já possui o valor %d!",i,j,val);
             }
         }
     }
@@ -156,54 +174,16 @@ void inicializa_matriz(int n_lin,int n_col,int mat[n_lin][n_col])
 
 ✔️
 ```c
-void inicializa_matriz(int n_lin, int n_col, int mat[n_lin][n_col])
+void inicializa_matriz_com_val(int n_lin, int n_col, int mat[n_lin][n_col], int val)
 {
     for (int i = 0; i < n_lin; i++) {
         for (int j = 0; j < n_col; j++) {
-            if (mat[i][j] != 0) {
-                mat[i][j] = 0;
+            if (mat[i][j] != val) {
+                mat[i][j] = val;
+            } else {
+                printf("\nA posição <%d, %d> da matriz já possui o valor %d!", i, j, val);
             }
         }
-    }
-}
-```
-
-## `switch`
-
-❌
-```c
-bool quer_sair_do_jogo(char opcao)
-{
-    switch(opcao)
-    {
-    case 'S':
-    case 's':
-        return true;
-        break;
-    case 'N':
-    case 'n':
-        return false;
-        break;
-    default:
-        exit(1);
-        break;
-    }
-}
-```
-
-✔️
-```c
-bool quer_sair_do_jogo(char opcao)
-{
-    switch (opcao) {
-        case 'S':
-        case 's':
-            return true;
-        case 'N':
-        case 'n':
-            return false;
-        default:
-            exit(1);
     }
 }
 ```
